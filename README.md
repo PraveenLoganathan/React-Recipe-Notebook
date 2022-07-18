@@ -3,7 +3,7 @@
 This repository contains my first mini React JS application that allows users to edit an existing recipe or add a new recipe to the list. Kindly find attached some notes on the thought process behind component design and best practices.
 
 ### Landing Recipe Page
-![Landing Recipe Page](images/landing-recipe- page.jpg)
+![Landing Recipe Page](images/landing-recipe-page.jpg)
 
 ### Edit/Add Button Functions
 ![Edit/Add Button Functions](images/edit-add-button-functions.jpg)
