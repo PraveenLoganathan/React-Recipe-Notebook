@@ -1,0 +1,31 @@
+
+Thought Process and Best Practice behind building this project:
+
+- Component files have only 1 component each - they match their respective file names. Easier to work with whilst building/debugging.
+
+- Break components as much as possible example ingredient component but make sure its reusable.
+
+- Default export is just the component, importing into App.js is easier and minimal.
+
+- State, props are defined at the top most level before writing any functions.
+
+- Use effect hooks are all grouped together right after state and props.
+
+- Functions are grouped together just before return statement that renders HTML.
+
+- onClick/onChange events have a naming scheme for example handle ‘Change’ is linked to an event on an element.
+
+- Break lengthy elements into smaller lines, structure them. Focus on a consistent theme which help in easier reading.
+
+- Props are better when you pass info from parent to child.
+
+- Whereas Context is better when you pass info from a parent to multiple levels of children (or) pass multiple different sections of app that aren’t linked to parent.
+
+- Having multiple state objects can help create explicit functions, example setRecipes and setRecipeId.
+
+- Variables that are passed via props/state, should be only be modified by using the setState calls.
+
+- Always use IDs when storing things when you reference from another object or array. It makes it more consistent so you never accidentally get two different objects that are trying to reference the same thing.
+
+
+
